@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */; };
+		F7F9F6FE1CB2BEE4003EE8E4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F6FD1CB2BEE4003EE8E4 /* FirstViewController.swift */; };
+		F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */; };
+		F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */; };
+		F7F9F7061CB2BEE4003EE8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */; };
+		F7F9F70F1CB2C155003EE8E4 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F70E1CB2C155003EE8E4 /* ShinobiCharts.framework */; };
+		F7F9F7151CB2C175003EE8E4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7141CB2C175003EE8E4 /* OpenGLES.framework */; };
+		F7F9F7171CB2C17E003EE8E4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7161CB2C17E003EE8E4 /* CoreText.framework */; };
+		F7F9F71A1CB2CBAA003EE8E4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7101CB2C160003EE8E4 /* Security.framework */; };
+		F7F9F7211CB2CD71003EE8E4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7201CB2CD71003EE8E4 /* libc++.tbd */; };
+		F7F9F7231CB2CD90003EE8E4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F7221CB2CD90003EE8E4 /* SecondViewController.swift */; };
+		F7F9F7251CB2CE23003EE8E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F7241CB2CE23003EE8E4 /* Constants.swift */; };
+		F7F9F72F1CB2DEEB003EE8E4 /* TornadoDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F72E1CB2DEEB003EE8E4 /* TornadoDataPoint.m */; };
+		F7F9F7341CB2E09D003EE8E4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F7331CB2E09D003EE8E4 /* ThirdViewController.swift */; };
+		F7F9F7361CB2F510003EE8E4 /* TornadoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F7351CB2F510003EE8E4 /* TornadoDataSource.m */; };
+		F7F9F7381CB2F545003EE8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7371CB2F545003EE8E4 /* Foundation.framework */; };
+		F7F9F73A1CB2F54B003EE8E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7391CB2F54B003EE8E4 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7F9F6F81CB2BEE3003EE8E4 /* shinobiCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinobiCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7F9F6FD1CB2BEE4003EE8E4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F7F9F7001CB2BEE4003EE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7F9F7051CB2BEE4003EE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7F9F7071CB2BEE4003EE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F9F70E1CB2C155003EE8E4 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
+		F7F9F7101CB2C160003EE8E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7F9F7121CB2C16B003EE8E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7F9F7141CB2C175003EE8E4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F7F9F7161CB2C17E003EE8E4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F7F9F7191CB2C5E5003EE8E4 /* shinobiCharts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shinobiCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7F9F7201CB2CD71003EE8E4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F7F9F7221CB2CD90003EE8E4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F7F9F7241CB2CE23003EE8E4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7F9F72D1CB2DEEB003EE8E4 /* TornadoDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TornadoDataPoint.h; sourceTree = "<group>"; };
+		F7F9F72E1CB2DEEB003EE8E4 /* TornadoDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TornadoDataPoint.m; sourceTree = "<group>"; };
+		F7F9F7301CB2DEF8003EE8E4 /* TornadoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TornadoDataSource.h; sourceTree = "<group>"; };
+		F7F9F7331CB2E09D003EE8E4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		F7F9F7351CB2F510003EE8E4 /* TornadoDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TornadoDataSource.m; sourceTree = "<group>"; };
+		F7F9F7371CB2F545003EE8E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7F9F7391CB2F54B003EE8E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F9F6F51CB2BEE3003EE8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9F73A1CB2F54B003EE8E4 /* UIKit.framework in Frameworks */,
+				F7F9F7381CB2F545003EE8E4 /* Foundation.framework in Frameworks */,
+				F7F9F7211CB2CD71003EE8E4 /* libc++.tbd in Frameworks */,
+				F7F9F71A1CB2CBAA003EE8E4 /* Security.framework in Frameworks */,
+				F7F9F7171CB2C17E003EE8E4 /* CoreText.framework in Frameworks */,
+				F7F9F7151CB2C175003EE8E4 /* OpenGLES.framework in Frameworks */,
+				F7F9F70F1CB2C155003EE8E4 /* ShinobiCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F9F6EF1CB2BEE3003EE8E4 = {
+			isa = PBXGroup;
+			children = (
+				F7F9F70D1CB2C133003EE8E4 /* Frameworks */,
+				F7F9F6FA1CB2BEE4003EE8E4 /* shinobiCharts */,
+				F7F9F6F91CB2BEE3003EE8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F9F6F91CB2BEE3003EE8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F6F81CB2BEE3003EE8E4 /* shinobiCharts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F9F6FA1CB2BEE4003EE8E4 /* shinobiCharts */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F7071CB2BEE4003EE8E4 /* Info.plist */,
+				F7F9F7191CB2C5E5003EE8E4 /* shinobiCharts-Bridging-Header.h */,
+				F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */,
+				F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */,
+				F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */,
+				F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */,
+				F7F9F7241CB2CE23003EE8E4 /* Constants.swift */,
+				F7F9F72C1CB2DEAE003EE8E4 /* Model */,
+				F7F9F7181CB2C1AD003EE8E4 /* Controllers */,
+			);
+			path = shinobiCharts;
+			sourceTree = "<group>";
+		};
+		F7F9F70D1CB2C133003EE8E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F7391CB2F54B003EE8E4 /* UIKit.framework */,
+				F7F9F7371CB2F545003EE8E4 /* Foundation.framework */,
+				F7F9F7201CB2CD71003EE8E4 /* libc++.tbd */,
+				F7F9F7161CB2C17E003EE8E4 /* CoreText.framework */,
+				F7F9F7141CB2C175003EE8E4 /* OpenGLES.framework */,
+				F7F9F7121CB2C16B003EE8E4 /* QuartzCore.framework */,
+				F7F9F7101CB2C160003EE8E4 /* Security.framework */,
+				F7F9F70E1CB2C155003EE8E4 /* ShinobiCharts.framework */,
+			);
+			name = Frameworks;
+			path = shinobiCharts;
+			sourceTree = "<group>";
+		};
+		F7F9F7181CB2C1AD003EE8E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F6FD1CB2BEE4003EE8E4 /* FirstViewController.swift */,
+				F7F9F7221CB2CD90003EE8E4 /* SecondViewController.swift */,
+				F7F9F7331CB2E09D003EE8E4 /* ThirdViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F7F9F72C1CB2DEAE003EE8E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F72D1CB2DEEB003EE8E4 /* TornadoDataPoint.h */,
+				F7F9F72E1CB2DEEB003EE8E4 /* TornadoDataPoint.m */,
+				F7F9F7301CB2DEF8003EE8E4 /* TornadoDataSource.h */,
+				F7F9F7351CB2F510003EE8E4 /* TornadoDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F9F6F71CB2BEE3003EE8E4 /* shinobiCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F9F70A1CB2BEE4003EE8E4 /* Build configuration list for PBXNativeTarget "shinobiCharts" */;
+			buildPhases = (
+				F7F9F6F41CB2BEE3003EE8E4 /* Sources */,
+				F7F9F6F51CB2BEE3003EE8E4 /* Frameworks */,
+				F7F9F6F61CB2BEE3003EE8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shinobiCharts;
+			productName = shinobiCharts;
+			productReference = F7F9F6F81CB2BEE3003EE8E4 /* shinobiCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F9F6F01CB2BEE3003EE8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LC;
+				TargetAttributes = {
+					F7F9F6F71CB2BEE3003EE8E4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F7F9F6F31CB2BEE3003EE8E4 /* Build configuration list for PBXProject "shinobiCharts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7F9F6EF1CB2BEE3003EE8E4;
+			productRefGroup = F7F9F6F91CB2BEE3003EE8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F9F6F71CB2BEE3003EE8E4 /* shinobiCharts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F9F6F61CB2BEE3003EE8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9F7061CB2BEE4003EE8E4 /* LaunchScreen.storyboard in Resources */,
+				F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */,
+				F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F9F6F41CB2BEE3003EE8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F9F7231CB2CD90003EE8E4 /* SecondViewController.swift in Sources */,
+				F7F9F6FE1CB2BEE4003EE8E4 /* FirstViewController.swift in Sources */,
+				F7F9F7341CB2E09D003EE8E4 /* ThirdViewController.swift in Sources */,
+				F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */,
+				F7F9F72F1CB2DEEB003EE8E4 /* TornadoDataPoint.m in Sources */,
+				F7F9F7251CB2CE23003EE8E4 /* Constants.swift in Sources */,
+				F7F9F7361CB2F510003EE8E4 /* TornadoDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F9F7001CB2BEE4003EE8E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F9F7051CB2BEE4003EE8E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F9F7081CB2BEE4003EE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7F9F7091CB2BEE4003EE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7F9F70B1CB2BEE4003EE8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/shinobiCharts",
+				);
+				INFOPLIST_FILE = shinobiCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LC.shinobiCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/shinobiCharts/shinobiCharts-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F7F9F70C1CB2BEE4003EE8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/shinobiCharts",
+				);
+				INFOPLIST_FILE = shinobiCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LC.shinobiCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/shinobiCharts/shinobiCharts-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F9F6F31CB2BEE3003EE8E4 /* Build configuration list for PBXProject "shinobiCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F9F7081CB2BEE4003EE8E4 /* Debug */,
+				F7F9F7091CB2BEE4003EE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F9F70A1CB2BEE4003EE8E4 /* Build configuration list for PBXNativeTarget "shinobiCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F9F70B1CB2BEE4003EE8E4 /* Debug */,
+				F7F9F70C1CB2BEE4003EE8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F9F6F01CB2BEE3003EE8E4 /* Project object */;
+}
