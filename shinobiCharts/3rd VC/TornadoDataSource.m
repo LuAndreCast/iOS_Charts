@@ -25,11 +25,13 @@
     return self;
 }
 
--(int)numberOfSeriesInSChart:(ShinobiChart*)chart {
+
+#pragma mark - Datasource methods
+-(NSInteger)numberOfSeriesInSChart:(ShinobiChart*)chart {
     return 3; // 0 is the hidden padding series, 1 is the min series and 2 is the max series.
 }
 
--(SChartSeries*)sChart:(ShinobiChart*)chart seriesAtIndex:(int)index {
+-(SChartSeries*)sChart:(ShinobiChart*)chart seriesAtIndex:(NSInteger)index {
     SChartBarSeries *barSeries = [SChartBarSeries new];
     
     // Set the stack index to be the same for everthing - that way the bars will stack alongside each other.
@@ -44,11 +46,11 @@
     return barSeries;
 }
 
--(int)sChart:(ShinobiChart*)chart numberOfDataPointsForSeriesAtIndex:(int)seriesIndex {
+-(NSInteger)sChart:(ShinobiChart*)chart numberOfDataPointsForSeriesAtIndex:(NSInteger)seriesIndex {
     return _data.count;
 }
 
--(id<SChartData>)sChart:(ShinobiChart*)chart dataPointAtIndex:(int)dataIndex forSeriesAtIndex:(int)seriesIndex {
+-(id<SChartData>)sChart:(ShinobiChart*)chart dataPointAtIndex:(NSInteger)dataIndex forSeriesAtIndex:(NSInteger)seriesIndex {
     TornadoDataPoint *tornadoData = [_data objectAtIndex:dataIndex];
     
     NSNumber *xVal;

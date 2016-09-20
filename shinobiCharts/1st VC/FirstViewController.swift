@@ -18,32 +18,32 @@ class FirstViewController: UIViewController, SChartDatasource
         super.viewDidLoad()
         
         let chart = ShinobiChart(frame: chartView.bounds)
-        chart.licenseKey =  shinobiTrialLicenseKey
+        chart?.licenseKey =  Constants.shared.getLicenseKey()
         
-        chart.title             = "Simple Chart #1"
-        chart.datasource        = self
-        chart.autoresizingMask  = [.FlexibleHeight , .FlexibleWidth]
+        chart?.title             = "Simple Chart #1"
+        chart?.datasource        = self
+        chart?.autoresizingMask  = [.flexibleHeight , .flexibleWidth]
         
-        chartView.addSubview(chart)
+        chartView.addSubview(chart!)
     }//eom
     
     
     //MARK: - Chart Datasource
-    func numberOfSeriesInSChart(chart: ShinobiChart!) -> Int
+    func numberOfSeries(inSChart chart: ShinobiChart!) -> Int
     {
         return 1
     }//eom
     
-    func sChart(chart: ShinobiChart!, seriesAtIndex index: Int) -> SChartSeries!
+    func sChart(_ chart: ShinobiChart!, seriesAt index: Int) -> SChartSeries!
     {
         return SChartLineSeries()
     }//eom
     
-    func sChart(chart: ShinobiChart!, numberOfDataPointsForSeriesAtIndex seriesIndex: Int) -> Int {
+    func sChart(_ chart: ShinobiChart!, numberOfDataPointsForSeriesAt seriesIndex: Int) -> Int {
         return 100
     }//eom
     
-    func sChart(chart: ShinobiChart!, dataPointAtIndex dataIndex: Int, forSeriesAtIndex seriesIndex: Int) -> SChartData!
+    func sChart(_ chart: ShinobiChart!, dataPointAt dataIndex: Int, forSeriesAt seriesIndex: Int) -> SChartData!
     {
         let dp = SChartDataPoint()
         dp.xValue = dataIndex

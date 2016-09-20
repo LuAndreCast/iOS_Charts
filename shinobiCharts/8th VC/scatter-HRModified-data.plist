@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>Value</key>
+			<integer>94</integer>
+			<key>Date</key>
+			<string>08-19-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>90</integer>
+			<key>Date</key>
+			<string>08-20-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>90</integer>
+			<key>Date</key>
+			<string>08-22-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>89</integer>
+			<key>Date</key>
+			<string>08-23-2016</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Value</key>
+			<integer>70</integer>
+			<key>Date</key>
+			<string>08-19-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>75</integer>
+			<key>Date</key>
+			<string>08-20-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>68</integer>
+			<key>Date</key>
+			<string>08-22-2016</string>
+		</dict>
+		<dict>
+			<key>Value</key>
+			<integer>87</integer>
+			<key>Date</key>
+			<string>08-23-2016</string>
+		</dict>
+	</array>
+</array>
+</plist>

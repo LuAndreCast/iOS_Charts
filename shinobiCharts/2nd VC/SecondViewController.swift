@@ -15,7 +15,7 @@ class SecondViewController: UIViewController, SChartDatasource
     {
         super.viewDidLoad()
 
-        let margin = (UIDevice.currentDevice().userInterfaceIdiom == .Phone ) ? CGFloat(10) : CGFloat(50)
+        let margin = (UIDevice.current.userInterfaceIdiom == .phone ) ? CGFloat(10) : CGFloat(50)
         
         /* take into consideration Navigation Bar */
         var viewBounds:CGRect = view.bounds
@@ -24,44 +24,44 @@ class SecondViewController: UIViewController, SChartDatasource
             let calcY:CGFloat = ( navBarHeight + CGFloat.init(20))
             let calcHeight = viewBounds.height - calcY
             
-            viewBounds = CGRectMake(0, calcY , viewBounds.width, calcHeight)
+            viewBounds = CGRect(x: 0, y: calcY , width: viewBounds.width, height: calcHeight)
         }
-        let chart = ShinobiChart( frame: CGRectInset(viewBounds, margin, margin) )
+        let chart = ShinobiChart( frame: viewBounds.insetBy(dx: margin, dy: margin) )
 
-        chart.licenseKey        = shinobiTrialLicenseKey
-        chart.title             = "Simple Chart #2"
-        chart.autoresizingMask  =  [.FlexibleHeight , .FlexibleWidth]
-        chart.datasource        = self
+        chart?.licenseKey        = Constants.shared.getLicenseKey()
+        chart?.title             = "Simple Chart #2"
+        chart?.autoresizingMask  =  [.flexibleHeight , .flexibleWidth]
+        chart?.datasource        = self
 
         let xAxis   = SChartNumberAxis()
-        xAxis.title = "X Value"
-        xAxis.enableGesturePanning = true
-        xAxis.enableGestureZooming = true
-        chart.xAxis = xAxis
+        xAxis?.title = "X Value"
+        xAxis?.enableGesturePanning = true
+        xAxis?.enableGestureZooming = true
+        chart?.xAxis = xAxis
 
         let yAxis   = SChartNumberAxis()
-        yAxis.title = "Y Value"
-        yAxis.enableGesturePanning = true
-        yAxis.enableGestureZooming = true
-        yAxis.rangePaddingLow   = 0.1
-        yAxis.rangePaddingHigh  = 0.1
-        chart.yAxis = yAxis
+        yAxis?.title = "Y Value"
+        yAxis?.enableGesturePanning = true
+        yAxis?.enableGestureZooming = true
+        yAxis?.rangePaddingLow   = 0.1
+        yAxis?.rangePaddingHigh  = 0.1
+        chart?.yAxis = yAxis
         
         //shows legend on ipad only
-        chart.legend.hidden = UIDevice.currentDevice().userInterfaceIdiom == .Phone
+        chart?.legend.isHidden = UIDevice.current.userInterfaceIdiom == .phone
 
         
-        view.addSubview(chart)
+        view.addSubview(chart!)
     }//eom
 
 
     //MARK: - Chart Datasource
-    func numberOfSeriesInSChart(chart: ShinobiChart!) -> Int {
+    func numberOfSeries(inSChart chart: ShinobiChart!) -> Int {
         return 2
     }//eom
 
-    func sChart(chart: ShinobiChart!,
-                seriesAtIndex index: Int) -> SChartSeries!
+    func sChart(_ chart: ShinobiChart!,
+                seriesAt index: Int) -> SChartSeries!
     {
         let lineSeries = SChartLineSeries()
 
@@ -80,15 +80,15 @@ class SecondViewController: UIViewController, SChartDatasource
         return lineSeries
     }//eom
 
-    func sChart(chart: ShinobiChart!,
-                numberOfDataPointsForSeriesAtIndex seriesIndex: Int) -> Int
+    func sChart(_ chart: ShinobiChart!,
+                numberOfDataPointsForSeriesAt seriesIndex: Int) -> Int
     {
         return 100
     }//eom
 
-    func sChart(chart: ShinobiChart!,
-                dataPointAtIndex dataIndex: Int,
-                forSeriesAtIndex seriesIndex: Int) -> SChartData!
+    func sChart(_ chart: ShinobiChart!,
+                dataPointAt dataIndex: Int,
+                forSeriesAt seriesIndex: Int) -> SChartData!
     {
         let dataPoint = SChartDataPoint()
 
