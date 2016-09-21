@@ -79,7 +79,7 @@
 #pragma mark - Setup
 -(void)setupChart
 {
-    self.chart.title = @"Scatter chart";
+    self.chart.title = @"Scatter Chart";
     
     self.chart.delegate = self;
     

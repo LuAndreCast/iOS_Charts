@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F75A5C8D1D918E7E002A06A6 /* LineGraphModViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A5C8C1D918E7E002A06A6 /* LineGraphModViewController.swift */; };
-		F75A5C8F1D9192AF002A06A6 /* LineGraphModDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75A5C8E1D9192AF002A06A6 /* LineGraphModDataSource.swift */; };
-		F7984D741D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7984D711D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.m */; };
-		F7984D751D9182FF002905AF /* ScatterHRModifiedLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7984D731D9182FF002905AF /* ScatterHRModifiedLineViewController.m */; };
-		F7984D771D918327002905AF /* scatter-HRModified-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7984D761D918327002905AF /* scatter-HRModified-data.plist */; };
+		F7A4D1E41D92D291003BBDD9 /* TornadoBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1DF1D92D291003BBDD9 /* TornadoBarViewController.swift */; };
+		F7A4D1E51D92D291003BBDD9 /* TornadoDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E11D92D291003BBDD9 /* TornadoDataPoint.m */; };
+		F7A4D1E61D92D291003BBDD9 /* TornadoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E31D92D291003BBDD9 /* TornadoDataSource.m */; };
+		F7A4D1EA1D92D29C003BBDD9 /* ColHighLowGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E71D92D29C003BBDD9 /* ColHighLowGraphViewController.swift */; };
+		F7A4D1EB1D92D29C003BBDD9 /* LineHighLowGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E91D92D29C003BBDD9 /* LineHighLowGraphDataSource.m */; };
+		F7A4D1EE1D92D2A7003BBDD9 /* LineGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1EC1D92D2A7003BBDD9 /* LineGraphViewController.swift */; };
+		F7A4D1EF1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1ED1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift */; };
+		F7A4D1F21D92D2B2003BBDD9 /* LineGraphModViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1F01D92D2B2003BBDD9 /* LineGraphModViewController.swift */; };
+		F7A4D1F31D92D2B2003BBDD9 /* LineGraphModDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1F11D92D2B2003BBDD9 /* LineGraphModDataSource.swift */; };
+		F7A4D1F91D92D2C1003BBDD9 /* scatter-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D1F41D92D2C1003BBDD9 /* scatter-data.plist */; };
+		F7A4D1FA1D92D2C1003BBDD9 /* ScatterLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1F61D92D2C1003BBDD9 /* ScatterLineGraphDataSource.m */; };
+		F7A4D1FB1D92D2C1003BBDD9 /* ScatterLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1F81D92D2C1003BBDD9 /* ScatterLineViewController.m */; };
+		F7A4D2011D92D2CE003BBDD9 /* MultiGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1FD1D92D2CE003BBDD9 /* MultiGraphViewController.m */; };
+		F7A4D2021D92D2CE003BBDD9 /* MultiGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1FF1D92D2CE003BBDD9 /* MultiGraphDataSource.m */; };
+		F7A4D2031D92D2CE003BBDD9 /* multitype-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2001D92D2CE003BBDD9 /* multitype-data.plist */; };
+		F7A4D2091D92D2DA003BBDD9 /* ScatterHRLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D2041D92D2DA003BBDD9 /* ScatterHRLineViewController.m */; };
+		F7A4D20A1D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D2051D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m */; };
+		F7A4D20B1D92D2DA003BBDD9 /* scatter-HeartRate-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2071D92D2DA003BBDD9 /* scatter-HeartRate-data.plist */; };
+		F7A4D2121D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */; };
+		F7A4D2131D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */; };
+		F7A4D2141D92D2E4003BBDD9 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */; };
+		F7A4D2151D92D2E4003BBDD9 /* scatter-HRModified-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */; };
 		F7DAA8C81D772FF300D23A23 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DAA8C71D772FF300D23A23 /* ShinobiCharts.framework */; };
-		F7DAA8DF1D77480D00D23A23 /* scatter-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7DAA8DA1D77480D00D23A23 /* scatter-data.plist */; };
-		F7DAA8E01D77480D00D23A23 /* ScatterLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8DC1D77480D00D23A23 /* ScatterLineGraphDataSource.m */; };
-		F7DAA8E11D77480D00D23A23 /* ScatterLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8DE1D77480D00D23A23 /* ScatterLineViewController.m */; };
-		F7DAA8E51D77481F00D23A23 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8E21D77481F00D23A23 /* FourthViewController.swift */; };
-		F7DAA8E61D77481F00D23A23 /* LineHighLowGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8E41D77481F00D23A23 /* LineHighLowGraphDataSource.m */; };
-		F7DAA8EC1D77482800D23A23 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8E71D77482800D23A23 /* ThirdViewController.swift */; };
-		F7DAA8ED1D77482800D23A23 /* TornadoDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8E91D77482800D23A23 /* TornadoDataPoint.m */; };
-		F7DAA8EE1D77482800D23A23 /* TornadoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8EB1D77482800D23A23 /* TornadoDataSource.m */; };
-		F7DAA8F01D77482F00D23A23 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8EF1D77482F00D23A23 /* SecondViewController.swift */; };
-		F7DAA8F21D77483600D23A23 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8F11D77483600D23A23 /* FirstViewController.swift */; };
-		F7DAA8F91D77488800D23A23 /* scatter-HeartRate-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7DAA8F41D77488800D23A23 /* scatter-HeartRate-data.plist */; };
-		F7DAA8FA1D77488800D23A23 /* ScatterHRLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8F61D77488800D23A23 /* ScatterHRLineGraphDataSource.m */; };
-		F7DAA8FB1D77488800D23A23 /* ScatterHRLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA8F81D77488800D23A23 /* ScatterHRLineViewController.m */; };
-		F7DAA9031D776DAD00D23A23 /* MultiGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA9021D776DAD00D23A23 /* MultiGraphDataSource.m */; };
-		F7DAA9061D776DBD00D23A23 /* MultiGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DAA9051D776DBD00D23A23 /* MultiGraphViewController.m */; };
-		F7DAA9081D776DED00D23A23 /* multitype-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7DAA9071D776DED00D23A23 /* multitype-data.plist */; };
 		F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */; };
 		F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */; };
 		F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */; };
@@ -43,39 +44,40 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F75A5C8C1D918E7E002A06A6 /* LineGraphModViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphModViewController.swift; path = "9th VC/LineGraphModViewController.swift"; sourceTree = "<group>"; };
-		F75A5C8E1D9192AF002A06A6 /* LineGraphModDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphModDataSource.swift; path = "9th VC/LineGraphModDataSource.swift"; sourceTree = "<group>"; };
-		F7984D701D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineGraphDataSource.h; path = "8th VC/ScatterHRModifiedLineGraphDataSource.h"; sourceTree = "<group>"; };
-		F7984D711D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineGraphDataSource.m; path = "8th VC/ScatterHRModifiedLineGraphDataSource.m"; sourceTree = "<group>"; };
-		F7984D721D9182FF002905AF /* ScatterHRModifiedLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineViewController.h; path = "8th VC/ScatterHRModifiedLineViewController.h"; sourceTree = "<group>"; };
-		F7984D731D9182FF002905AF /* ScatterHRModifiedLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineViewController.m; path = "8th VC/ScatterHRModifiedLineViewController.m"; sourceTree = "<group>"; };
-		F7984D761D918327002905AF /* scatter-HRModified-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-HRModified-data.plist"; path = "8th VC/scatter-HRModified-data.plist"; sourceTree = "<group>"; };
+		F7A4D1DF1D92D291003BBDD9 /* TornadoBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TornadoBarViewController.swift; path = "Bar Series/TornadoBarViewController.swift"; sourceTree = "<group>"; };
+		F7A4D1E01D92D291003BBDD9 /* TornadoDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TornadoDataPoint.h; path = "Bar Series/TornadoDataPoint.h"; sourceTree = "<group>"; };
+		F7A4D1E11D92D291003BBDD9 /* TornadoDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TornadoDataPoint.m; path = "Bar Series/TornadoDataPoint.m"; sourceTree = "<group>"; };
+		F7A4D1E21D92D291003BBDD9 /* TornadoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TornadoDataSource.h; path = "Bar Series/TornadoDataSource.h"; sourceTree = "<group>"; };
+		F7A4D1E31D92D291003BBDD9 /* TornadoDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TornadoDataSource.m; path = "Bar Series/TornadoDataSource.m"; sourceTree = "<group>"; };
+		F7A4D1E71D92D29C003BBDD9 /* ColHighLowGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColHighLowGraphViewController.swift; path = "Column Series/ColHighLowGraphViewController.swift"; sourceTree = "<group>"; };
+		F7A4D1E81D92D29C003BBDD9 /* LineHighLowGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineHighLowGraphDataSource.h; path = "Column Series/LineHighLowGraphDataSource.h"; sourceTree = "<group>"; };
+		F7A4D1E91D92D29C003BBDD9 /* LineHighLowGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineHighLowGraphDataSource.m; path = "Column Series/LineHighLowGraphDataSource.m"; sourceTree = "<group>"; };
+		F7A4D1EC1D92D2A7003BBDD9 /* LineGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphViewController.swift; path = "Line Series/LineGraphViewController.swift"; sourceTree = "<group>"; };
+		F7A4D1ED1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineTrigGraphViewController.swift; path = "Line Series/LineTrigGraphViewController.swift"; sourceTree = "<group>"; };
+		F7A4D1F01D92D2B2003BBDD9 /* LineGraphModViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphModViewController.swift; path = "Line Series/line facing up/LineGraphModViewController.swift"; sourceTree = "<group>"; };
+		F7A4D1F11D92D2B2003BBDD9 /* LineGraphModDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineGraphModDataSource.swift; path = "Line Series/line facing up/LineGraphModDataSource.swift"; sourceTree = "<group>"; };
+		F7A4D1F41D92D2C1003BBDD9 /* scatter-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-data.plist"; path = "Scatter Series/scatter-data.plist"; sourceTree = "<group>"; };
+		F7A4D1F51D92D2C1003BBDD9 /* ScatterLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterLineGraphDataSource.h; path = "Scatter Series/ScatterLineGraphDataSource.h"; sourceTree = "<group>"; };
+		F7A4D1F61D92D2C1003BBDD9 /* ScatterLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterLineGraphDataSource.m; path = "Scatter Series/ScatterLineGraphDataSource.m"; sourceTree = "<group>"; };
+		F7A4D1F71D92D2C1003BBDD9 /* ScatterLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterLineViewController.h; path = "Scatter Series/ScatterLineViewController.h"; sourceTree = "<group>"; };
+		F7A4D1F81D92D2C1003BBDD9 /* ScatterLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterLineViewController.m; path = "Scatter Series/ScatterLineViewController.m"; sourceTree = "<group>"; };
+		F7A4D1FC1D92D2CE003BBDD9 /* MultiGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiGraphViewController.h; path = "Multi Series/multi/MultiGraphViewController.h"; sourceTree = "<group>"; };
+		F7A4D1FD1D92D2CE003BBDD9 /* MultiGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiGraphViewController.m; path = "Multi Series/multi/MultiGraphViewController.m"; sourceTree = "<group>"; };
+		F7A4D1FE1D92D2CE003BBDD9 /* MultiGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiGraphDataSource.h; path = "Multi Series/multi/MultiGraphDataSource.h"; sourceTree = "<group>"; };
+		F7A4D1FF1D92D2CE003BBDD9 /* MultiGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiGraphDataSource.m; path = "Multi Series/multi/MultiGraphDataSource.m"; sourceTree = "<group>"; };
+		F7A4D2001D92D2CE003BBDD9 /* multitype-data.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "multitype-data.plist"; path = "Multi Series/multi/multitype-data.plist"; sourceTree = "<group>"; };
+		F7A4D2041D92D2DA003BBDD9 /* ScatterHRLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRLineViewController.m; path = "Multi Series/multi heartrate/ScatterHRLineViewController.m"; sourceTree = "<group>"; };
+		F7A4D2051D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRLineGraphDataSource.m; path = "Multi Series/multi heartrate/ScatterHRLineGraphDataSource.m"; sourceTree = "<group>"; };
+		F7A4D2061D92D2DA003BBDD9 /* ScatterHRLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRLineViewController.h; path = "Multi Series/multi heartrate/ScatterHRLineViewController.h"; sourceTree = "<group>"; };
+		F7A4D2071D92D2DA003BBDD9 /* scatter-HeartRate-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-HeartRate-data.plist"; path = "Multi Series/multi heartrate/scatter-HeartRate-data.plist"; sourceTree = "<group>"; };
+		F7A4D2081D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRLineGraphDataSource.h; path = "Multi Series/multi heartrate/ScatterHRLineGraphDataSource.h"; sourceTree = "<group>"; };
+		F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineGraphDataSource.m; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineGraphDataSource.m"; sourceTree = "<group>"; };
+		F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineViewController.m; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineViewController.m"; sourceTree = "<group>"; };
+		F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; name = .DS_Store; path = "Multi Series/multi heartrate mod/.DS_Store"; sourceTree = "<group>"; };
+		F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-HRModified-data.plist"; path = "Multi Series/multi heartrate mod/scatter-HRModified-data.plist"; sourceTree = "<group>"; };
+		F7A4D2101D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineGraphDataSource.h; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineGraphDataSource.h"; sourceTree = "<group>"; };
+		F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineViewController.h; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineViewController.h"; sourceTree = "<group>"; };
 		F7DAA8C71D772FF300D23A23 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = SOURCE_ROOT; };
-		F7DAA8DA1D77480D00D23A23 /* scatter-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-data.plist"; path = "5th VC/scatter-data.plist"; sourceTree = "<group>"; };
-		F7DAA8DB1D77480D00D23A23 /* ScatterLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterLineGraphDataSource.h; path = "5th VC/ScatterLineGraphDataSource.h"; sourceTree = "<group>"; };
-		F7DAA8DC1D77480D00D23A23 /* ScatterLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterLineGraphDataSource.m; path = "5th VC/ScatterLineGraphDataSource.m"; sourceTree = "<group>"; };
-		F7DAA8DD1D77480D00D23A23 /* ScatterLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterLineViewController.h; path = "5th VC/ScatterLineViewController.h"; sourceTree = "<group>"; };
-		F7DAA8DE1D77480D00D23A23 /* ScatterLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterLineViewController.m; path = "5th VC/ScatterLineViewController.m"; sourceTree = "<group>"; };
-		F7DAA8E21D77481F00D23A23 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FourthViewController.swift; path = "4th VC/FourthViewController.swift"; sourceTree = "<group>"; };
-		F7DAA8E31D77481F00D23A23 /* LineHighLowGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineHighLowGraphDataSource.h; path = "4th VC/LineHighLowGraphDataSource.h"; sourceTree = "<group>"; };
-		F7DAA8E41D77481F00D23A23 /* LineHighLowGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineHighLowGraphDataSource.m; path = "4th VC/LineHighLowGraphDataSource.m"; sourceTree = "<group>"; };
-		F7DAA8E71D77482800D23A23 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = "3rd VC/ThirdViewController.swift"; sourceTree = "<group>"; };
-		F7DAA8E81D77482800D23A23 /* TornadoDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TornadoDataPoint.h; path = "3rd VC/TornadoDataPoint.h"; sourceTree = "<group>"; };
-		F7DAA8E91D77482800D23A23 /* TornadoDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TornadoDataPoint.m; path = "3rd VC/TornadoDataPoint.m"; sourceTree = "<group>"; };
-		F7DAA8EA1D77482800D23A23 /* TornadoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TornadoDataSource.h; path = "3rd VC/TornadoDataSource.h"; sourceTree = "<group>"; };
-		F7DAA8EB1D77482800D23A23 /* TornadoDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TornadoDataSource.m; path = "3rd VC/TornadoDataSource.m"; sourceTree = "<group>"; };
-		F7DAA8EF1D77482F00D23A23 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "2nd VC/SecondViewController.swift"; sourceTree = "<group>"; };
-		F7DAA8F11D77483600D23A23 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = "1st VC/FirstViewController.swift"; sourceTree = "<group>"; };
-		F7DAA8F41D77488800D23A23 /* scatter-HeartRate-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-HeartRate-data.plist"; path = "6th VC/scatter-HeartRate-data.plist"; sourceTree = "<group>"; };
-		F7DAA8F51D77488800D23A23 /* ScatterHRLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRLineGraphDataSource.h; path = "6th VC/ScatterHRLineGraphDataSource.h"; sourceTree = "<group>"; };
-		F7DAA8F61D77488800D23A23 /* ScatterHRLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRLineGraphDataSource.m; path = "6th VC/ScatterHRLineGraphDataSource.m"; sourceTree = "<group>"; };
-		F7DAA8F71D77488800D23A23 /* ScatterHRLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRLineViewController.h; path = "6th VC/ScatterHRLineViewController.h"; sourceTree = "<group>"; };
-		F7DAA8F81D77488800D23A23 /* ScatterHRLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRLineViewController.m; path = "6th VC/ScatterHRLineViewController.m"; sourceTree = "<group>"; };
-		F7DAA9011D776DAD00D23A23 /* MultiGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiGraphDataSource.h; path = "7th VC/MultiGraphDataSource.h"; sourceTree = "<group>"; };
-		F7DAA9021D776DAD00D23A23 /* MultiGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiGraphDataSource.m; path = "7th VC/MultiGraphDataSource.m"; sourceTree = "<group>"; };
-		F7DAA9041D776DBD00D23A23 /* MultiGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiGraphViewController.h; path = "7th VC/MultiGraphViewController.h"; sourceTree = "<group>"; };
-		F7DAA9051D776DBD00D23A23 /* MultiGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiGraphViewController.m; path = "7th VC/MultiGraphViewController.m"; sourceTree = "<group>"; };
-		F7DAA9071D776DED00D23A23 /* multitype-data.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "multitype-data.plist"; path = "7th VC/multitype-data.plist"; sourceTree = "<group>"; };
 		F7F9F6F81CB2BEE3003EE8E4 /* shinobiCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinobiCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F9F7001CB2BEE4003EE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,47 +113,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F73AF44F1D7621760015F5B1 /* 4th Line Graph */ = {
+		F73AF44F1D7621760015F5B1 /* Column Series */ = {
 			isa = PBXGroup;
 			children = (
-				F7DAA8E21D77481F00D23A23 /* FourthViewController.swift */,
-				F7DAA8E31D77481F00D23A23 /* LineHighLowGraphDataSource.h */,
-				F7DAA8E41D77481F00D23A23 /* LineHighLowGraphDataSource.m */,
+				F7A4D1E71D92D29C003BBDD9 /* ColHighLowGraphViewController.swift */,
+				F7A4D1E81D92D29C003BBDD9 /* LineHighLowGraphDataSource.h */,
+				F7A4D1E91D92D29C003BBDD9 /* LineHighLowGraphDataSource.m */,
 			);
-			name = "4th Line Graph";
+			name = "Column Series";
 			sourceTree = "<group>";
 		};
-		F73AF4501D76217F0015F5B1 /* 3rd Tornado Chart */ = {
+		F73AF4501D76217F0015F5B1 /* Tornado style */ = {
 			isa = PBXGroup;
 			children = (
-				F7DAA8E71D77482800D23A23 /* ThirdViewController.swift */,
-				F7DAA8E81D77482800D23A23 /* TornadoDataPoint.h */,
-				F7DAA8E91D77482800D23A23 /* TornadoDataPoint.m */,
-				F7DAA8EA1D77482800D23A23 /* TornadoDataSource.h */,
-				F7DAA8EB1D77482800D23A23 /* TornadoDataSource.m */,
+				F7A4D1DF1D92D291003BBDD9 /* TornadoBarViewController.swift */,
+				F7A4D1E01D92D291003BBDD9 /* TornadoDataPoint.h */,
+				F7A4D1E11D92D291003BBDD9 /* TornadoDataPoint.m */,
+				F7A4D1E21D92D291003BBDD9 /* TornadoDataSource.h */,
+				F7A4D1E31D92D291003BBDD9 /* TornadoDataSource.m */,
 			);
-			name = "3rd Tornado Chart";
+			name = "Tornado style";
 			sourceTree = "<group>";
 		};
-		F75A5C8B1D918DAD002A06A6 /* 9th Line Graph */ = {
+		F75A5C8B1D918DAD002A06A6 /* Line Graph - Facing up */ = {
 			isa = PBXGroup;
 			children = (
-				F75A5C8C1D918E7E002A06A6 /* LineGraphModViewController.swift */,
-				F75A5C8E1D9192AF002A06A6 /* LineGraphModDataSource.swift */,
+				F7A4D1F01D92D2B2003BBDD9 /* LineGraphModViewController.swift */,
+				F7A4D1F11D92D2B2003BBDD9 /* LineGraphModDataSource.swift */,
 			);
-			name = "9th Line Graph";
+			name = "Line Graph - Facing up";
 			sourceTree = "<group>";
 		};
-		F7AFBB4B1D89C24F001EEBC3 /* 8th Line Graph Combine */ = {
+		F7A4D1DB1D92C949003BBDD9 /* Multi Series */ = {
 			isa = PBXGroup;
 			children = (
-				F7984D721D9182FF002905AF /* ScatterHRModifiedLineViewController.h */,
-				F7984D731D9182FF002905AF /* ScatterHRModifiedLineViewController.m */,
-				F7984D761D918327002905AF /* scatter-HRModified-data.plist */,
-				F7984D701D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.h */,
-				F7984D711D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.m */,
+				F7DAA8FD1D776D6300D23A23 /* Multi Graph - Band & Column Series */,
+				F7DAA8F31D77483D00D23A23 /* Heart Rate - Scatter & Band Series */,
+				F7AFBB4B1D89C24F001EEBC3 /* Heart rate modified - Line & Scatter series */,
 			);
-			name = "8th Line Graph Combine";
+			name = "Multi Series";
+			sourceTree = "<group>";
+		};
+		F7A4D1DC1D92C950003BBDD9 /* Line Series */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D1EC1D92D2A7003BBDD9 /* LineGraphViewController.swift */,
+				F7A4D1ED1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift */,
+				F75A5C8B1D918DAD002A06A6 /* Line Graph - Facing up */,
+			);
+			name = "Line Series";
+			sourceTree = "<group>";
+		};
+		F7A4D1DD1D92C958003BBDD9 /* Bar Series */ = {
+			isa = PBXGroup;
+			children = (
+				F73AF4501D76217F0015F5B1 /* Tornado style */,
+			);
+			name = "Bar Series";
+			sourceTree = "<group>";
+		};
+		F7A4D1DE1D92C965003BBDD9 /* Scatter Series */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D1F41D92D2C1003BBDD9 /* scatter-data.plist */,
+				F7A4D1F51D92D2C1003BBDD9 /* ScatterLineGraphDataSource.h */,
+				F7A4D1F61D92D2C1003BBDD9 /* ScatterLineGraphDataSource.m */,
+				F7A4D1F71D92D2C1003BBDD9 /* ScatterLineViewController.h */,
+				F7A4D1F81D92D2C1003BBDD9 /* ScatterLineViewController.m */,
+			);
+			name = "Scatter Series";
+			sourceTree = "<group>";
+		};
+		F7AFBB4B1D89C24F001EEBC3 /* Heart rate modified - Line & Scatter series */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */,
+				F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */,
+				F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */,
+				F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */,
+				F7A4D2101D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.h */,
+				F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */,
+			);
+			name = "Heart rate modified - Line & Scatter series";
 			sourceTree = "<group>";
 		};
 		F7DAA81D1D771C5A00D23A23 /* Views */ = {
@@ -163,40 +206,28 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		F7DAA8D11D77322100D23A23 /* 5th Scatter Chart */ = {
+		F7DAA8F31D77483D00D23A23 /* Heart Rate - Scatter & Band Series */ = {
 			isa = PBXGroup;
 			children = (
-				F7DAA8DD1D77480D00D23A23 /* ScatterLineViewController.h */,
-				F7DAA8DE1D77480D00D23A23 /* ScatterLineViewController.m */,
-				F7DAA8DA1D77480D00D23A23 /* scatter-data.plist */,
-				F7DAA8DB1D77480D00D23A23 /* ScatterLineGraphDataSource.h */,
-				F7DAA8DC1D77480D00D23A23 /* ScatterLineGraphDataSource.m */,
+				F7A4D2041D92D2DA003BBDD9 /* ScatterHRLineViewController.m */,
+				F7A4D2051D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m */,
+				F7A4D2061D92D2DA003BBDD9 /* ScatterHRLineViewController.h */,
+				F7A4D2071D92D2DA003BBDD9 /* scatter-HeartRate-data.plist */,
+				F7A4D2081D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.h */,
 			);
-			name = "5th Scatter Chart";
+			name = "Heart Rate - Scatter & Band Series";
 			sourceTree = "<group>";
 		};
-		F7DAA8F31D77483D00D23A23 /* 6th Heart Rate Scatter Chart */ = {
+		F7DAA8FD1D776D6300D23A23 /* Multi Graph - Band & Column Series */ = {
 			isa = PBXGroup;
 			children = (
-				F7DAA8F71D77488800D23A23 /* ScatterHRLineViewController.h */,
-				F7DAA8F81D77488800D23A23 /* ScatterHRLineViewController.m */,
-				F7DAA8F41D77488800D23A23 /* scatter-HeartRate-data.plist */,
-				F7DAA8F51D77488800D23A23 /* ScatterHRLineGraphDataSource.h */,
-				F7DAA8F61D77488800D23A23 /* ScatterHRLineGraphDataSource.m */,
+				F7A4D1FC1D92D2CE003BBDD9 /* MultiGraphViewController.h */,
+				F7A4D1FD1D92D2CE003BBDD9 /* MultiGraphViewController.m */,
+				F7A4D1FE1D92D2CE003BBDD9 /* MultiGraphDataSource.h */,
+				F7A4D1FF1D92D2CE003BBDD9 /* MultiGraphDataSource.m */,
+				F7A4D2001D92D2CE003BBDD9 /* multitype-data.plist */,
 			);
-			name = "6th Heart Rate Scatter Chart";
-			sourceTree = "<group>";
-		};
-		F7DAA8FD1D776D6300D23A23 /* 7th Multi Graph */ = {
-			isa = PBXGroup;
-			children = (
-				F7DAA9041D776DBD00D23A23 /* MultiGraphViewController.h */,
-				F7DAA9051D776DBD00D23A23 /* MultiGraphViewController.m */,
-				F7DAA9071D776DED00D23A23 /* multitype-data.plist */,
-				F7DAA9011D776DAD00D23A23 /* MultiGraphDataSource.h */,
-				F7DAA9021D776DAD00D23A23 /* MultiGraphDataSource.m */,
-			);
-			name = "7th Multi Graph";
+			name = "Multi Graph - Band & Column Series";
 			sourceTree = "<group>";
 		};
 		F7F9F6EF1CB2BEE3003EE8E4 = {
@@ -249,15 +280,11 @@
 		F7F9F7181CB2C1AD003EE8E4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F7DAA8F11D77483600D23A23 /* FirstViewController.swift */,
-				F7DAA8EF1D77482F00D23A23 /* SecondViewController.swift */,
-				F73AF4501D76217F0015F5B1 /* 3rd Tornado Chart */,
-				F73AF44F1D7621760015F5B1 /* 4th Line Graph */,
-				F7DAA8D11D77322100D23A23 /* 5th Scatter Chart */,
-				F7DAA8F31D77483D00D23A23 /* 6th Heart Rate Scatter Chart */,
-				F7DAA8FD1D776D6300D23A23 /* 7th Multi Graph */,
-				F7AFBB4B1D89C24F001EEBC3 /* 8th Line Graph Combine */,
-				F75A5C8B1D918DAD002A06A6 /* 9th Line Graph */,
+				F7A4D1DD1D92C958003BBDD9 /* Bar Series */,
+				F73AF44F1D7621760015F5B1 /* Column Series */,
+				F7A4D1DC1D92C950003BBDD9 /* Line Series */,
+				F7A4D1DE1D92C965003BBDD9 /* Scatter Series */,
+				F7A4D1DB1D92C949003BBDD9 /* Multi Series */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -323,13 +350,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DAA9081D776DED00D23A23 /* multitype-data.plist in Resources */,
 				F7F9F7061CB2BEE4003EE8E4 /* LaunchScreen.storyboard in Resources */,
 				F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */,
-				F7984D771D918327002905AF /* scatter-HRModified-data.plist in Resources */,
+				F7A4D20B1D92D2DA003BBDD9 /* scatter-HeartRate-data.plist in Resources */,
 				F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */,
-				F7DAA8DF1D77480D00D23A23 /* scatter-data.plist in Resources */,
-				F7DAA8F91D77488800D23A23 /* scatter-HeartRate-data.plist in Resources */,
+				F7A4D2151D92D2E4003BBDD9 /* scatter-HRModified-data.plist in Resources */,
+				F7A4D2031D92D2CE003BBDD9 /* multitype-data.plist in Resources */,
+				F7A4D2141D92D2E4003BBDD9 /* .DS_Store in Resources */,
+				F7A4D1F91D92D2C1003BBDD9 /* scatter-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,25 +368,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DAA8F01D77482F00D23A23 /* SecondViewController.swift in Sources */,
-				F7DAA8E01D77480D00D23A23 /* ScatterLineGraphDataSource.m in Sources */,
-				F7DAA8FA1D77488800D23A23 /* ScatterHRLineGraphDataSource.m in Sources */,
-				F7DAA8EC1D77482800D23A23 /* ThirdViewController.swift in Sources */,
-				F7DAA8FB1D77488800D23A23 /* ScatterHRLineViewController.m in Sources */,
-				F75A5C8D1D918E7E002A06A6 /* LineGraphModViewController.swift in Sources */,
-				F7DAA9061D776DBD00D23A23 /* MultiGraphViewController.m in Sources */,
-				F7DAA9031D776DAD00D23A23 /* MultiGraphDataSource.m in Sources */,
-				F7984D741D9182FF002905AF /* ScatterHRModifiedLineGraphDataSource.m in Sources */,
-				F7984D751D9182FF002905AF /* ScatterHRModifiedLineViewController.m in Sources */,
-				F7DAA8EE1D77482800D23A23 /* TornadoDataSource.m in Sources */,
-				F7DAA8E61D77481F00D23A23 /* LineHighLowGraphDataSource.m in Sources */,
-				F7DAA8E51D77481F00D23A23 /* FourthViewController.swift in Sources */,
+				F7A4D1E41D92D291003BBDD9 /* TornadoBarViewController.swift in Sources */,
+				F7A4D1F31D92D2B2003BBDD9 /* LineGraphModDataSource.swift in Sources */,
+				F7A4D1EA1D92D29C003BBDD9 /* ColHighLowGraphViewController.swift in Sources */,
+				F7A4D20A1D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m in Sources */,
+				F7A4D2021D92D2CE003BBDD9 /* MultiGraphDataSource.m in Sources */,
+				F7A4D2091D92D2DA003BBDD9 /* ScatterHRLineViewController.m in Sources */,
 				F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */,
+				F7A4D1F21D92D2B2003BBDD9 /* LineGraphModViewController.swift in Sources */,
+				F7A4D1EE1D92D2A7003BBDD9 /* LineGraphViewController.swift in Sources */,
+				F7A4D1FA1D92D2C1003BBDD9 /* ScatterLineGraphDataSource.m in Sources */,
+				F7A4D1E61D92D291003BBDD9 /* TornadoDataSource.m in Sources */,
+				F7A4D2121D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m in Sources */,
 				F7F9F7251CB2CE23003EE8E4 /* Constants.swift in Sources */,
-				F7DAA8ED1D77482800D23A23 /* TornadoDataPoint.m in Sources */,
-				F7DAA8E11D77480D00D23A23 /* ScatterLineViewController.m in Sources */,
-				F75A5C8F1D9192AF002A06A6 /* LineGraphModDataSource.swift in Sources */,
-				F7DAA8F21D77483600D23A23 /* FirstViewController.swift in Sources */,
+				F7A4D1E51D92D291003BBDD9 /* TornadoDataPoint.m in Sources */,
+				F7A4D2131D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m in Sources */,
+				F7A4D1FB1D92D2C1003BBDD9 /* ScatterLineViewController.m in Sources */,
+				F7A4D1EF1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift in Sources */,
+				F7A4D1EB1D92D29C003BBDD9 /* LineHighLowGraphDataSource.m in Sources */,
+				F7A4D2011D92D2CE003BBDD9 /* MultiGraphViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

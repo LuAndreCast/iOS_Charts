@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FourthViewController: UIViewController, SChartDelegate
+class ColHighLowGraphViewController: UIViewController, SChartDelegate
 {
     var chart:ShinobiChart = ShinobiChart(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
     let dataSource:LineHighLowGraphDataSource = LineHighLowGraphDataSource()
@@ -22,19 +22,15 @@ class FourthViewController: UIViewController, SChartDelegate
         
         let chart = ShinobiChart(frame: chartView.bounds)
         
-//        let chart = ShinobiChart(frame: chartView.bounds, withPrimaryXAxisType: SChartAxisTypeNumber, withPrimaryYAxisType: SChartAxisTypeNumber)
         
         chart?.licenseKey =  Constants.shared.getLicenseKey()
-        chart?.title             = "Chart #4"
+        chart?.title             = "Line Column Graph"
         chart?.autoresizingMask  = [.flexibleHeight , .flexibleWidth]
         chart?.datasource = dataSource
         
         
         chartView.addSubview(chart!)
         
-        //padding
-//        chart.xAxis.rangePaddingLow = 0.5;
-//        chart.yAxis.rangePaddingHigh = 0.5;
     }//eom
 
 }//eoc

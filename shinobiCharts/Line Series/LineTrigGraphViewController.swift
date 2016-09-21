@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, SChartDatasource
+class LineTrigGraphViewController: UIViewController, SChartDatasource
 {
     //MARK: -   View Loading
     override func viewDidLoad()
@@ -29,7 +29,7 @@ class SecondViewController: UIViewController, SChartDatasource
         let chart = ShinobiChart( frame: viewBounds.insetBy(dx: margin, dy: margin) )
 
         chart?.licenseKey        = Constants.shared.getLicenseKey()
-        chart?.title             = "Simple Chart #2"
+        chart?.title             = "Line Trig Graph"
         chart?.autoresizingMask  =  [.flexibleHeight , .flexibleWidth]
         chart?.datasource        = self
 

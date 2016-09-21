@@ -30,7 +30,7 @@ class LineGraphModViewController: UIViewController,SChartDelegate
     {
         chart?.delegate = self
         chart?.licenseKey =  Constants.shared.getLicenseKey()
-        chart?.title             = "Chart #9"
+        chart?.title             = "Line Facing up"
         chart?.autoresizingMask  = [.flexibleHeight , .flexibleWidth]
         chart?.datasource = chartDataSource
         

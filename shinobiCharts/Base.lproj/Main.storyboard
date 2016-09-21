@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--Line Graph View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LineGraphViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -37,12 +37,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="-289"/>
+            <point key="canvasLocation" x="2250" y="1021"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Line Trig Graph View Controller-->
         <scene sceneID="REg-4w-Fsb">
             <objects>
-                <viewController id="4if-Lc-kjV" customClass="SecondViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4if-Lc-kjV" customClass="LineTrigGraphViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m0H-gx-HbO"/>
                         <viewControllerLayoutGuide type="bottom" id="QGh-Rj-AE5"/>
@@ -55,12 +55,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zON-x1-o9a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="-289"/>
+            <point key="canvasLocation" x="2929" y="1021"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Tornado Bar View Controller-->
         <scene sceneID="rdY-nm-z5B">
             <objects>
-                <viewController id="wkN-Ii-YKY" customClass="ThirdViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="wkN-Ii-YKY" customClass="TornadoBarViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8zm-VW-1Oz"/>
                         <viewControllerLayoutGuide type="bottom" id="OAi-At-JmO"/>
@@ -73,12 +73,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="elw-q3-5SD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3312" y="-276"/>
+            <point key="canvasLocation" x="2249" y="-584"/>
         </scene>
-        <!--Fourth View Controller-->
+        <!--Col High Low Graph View Controller-->
         <scene sceneID="kW4-9k-g1h">
             <objects>
-                <viewController id="v2x-FJ-zn5" customClass="FourthViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="v2x-FJ-zn5" customClass="ColHighLowGraphViewController" customModule="shinobiCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="91s-5v-09d"/>
                         <viewControllerLayoutGuide type="bottom" id="Ce8-ZI-Ac9"/>
@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zAM-YL-fi8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3984" y="-276"/>
+            <point key="canvasLocation" x="2249" y="142"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="8Bg-gv-Ryc">
@@ -114,58 +114,18 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="twP-nh-xQv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.77487980769230758" green="0.77487980769230758" blue="0.77487980769230758" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
-                            <tableViewSection id="P12-RR-CeA">
+                            <tableViewSection headerTitle="Bar Series" id="P12-RR-CeA" userLabel="Bar Series">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pAV-eI-bdV" style="IBUITableViewCellStyleDefault" id="Fdo-Fa-OuO">
-                                        <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fdo-Fa-OuO" id="FwQ-EN-pH3">
-                                            <frame key="frameInset" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart #1 - Line Graph (Exponential)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pAV-eI-bdV">
-                                                    <frame key="frameInset" minX="15" width="345" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="rcA-hA-1Ss"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="mt1-jA-rJ9" style="IBUITableViewCellStyleDefault" id="sQH-bb-td7">
-                                        <rect key="frame" x="0.0" y="108" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sQH-bb-td7" id="SAD-bo-xVr">
-                                            <frame key="frameInset" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart #2 - Trigonometric Functions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mt1-jA-rJ9">
-                                                    <frame key="frameInset" minX="15" width="345" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="4if-Lc-kjV" kind="show" id="xbW-wH-Cej"/>
-                                        </connections>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="M7i-es-Eg5" style="IBUITableViewCellStyleDefault" id="5i4-kp-dhI">
-                                        <rect key="frame" x="0.0" y="152" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5i4-kp-dhI" id="shL-Hl-SKQ">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 3 - Tornado Chart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M7i-es-Eg5">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tornado Style Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M7i-es-Eg5">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -175,17 +135,21 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wkN-Ii-YKY" kind="show" id="yZW-lI-v7V"/>
+                                            <segue destination="wkN-Ii-YKY" kind="show" id="nG6-7G-Mav"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Z3F-bw-ufa" style="IBUITableViewCellStyleDefault" id="H7R-GM-Yq4">
-                                        <rect key="frame" x="0.0" y="196" width="375" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Column Series" id="AEV-FF-UgI">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="xvs-nt-dKh" style="IBUITableViewCellStyleDefault" id="DXW-GT-3sb">
+                                        <rect key="frame" x="0.0" y="164" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="H7R-GM-Yq4" id="35h-se-GyB">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DXW-GT-3sb" id="dNQ-jv-KiY">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 4 - Line Graph (High  &amp; Low)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z3F-bw-ufa">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="High/Low Column Line Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xvs-nt-dKh">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -195,17 +159,21 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="v2x-FJ-zn5" kind="show" id="ct6-6B-QWZ"/>
+                                            <segue destination="v2x-FJ-zn5" kind="show" id="NPV-Ih-ME2"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="sdR-3F-RSg" style="IBUITableViewCellStyleDefault" id="g7c-1V-0e3">
-                                        <rect key="frame" x="0.0" y="240" width="375" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Line Series" id="4G0-Bd-b3v">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="P8D-nf-t6l" style="IBUITableViewCellStyleDefault" id="GZI-Yv-yJL">
+                                        <rect key="frame" x="0.0" y="236" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g7c-1V-0e3" id="dNc-rH-HEO">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GZI-Yv-yJL" id="MPi-s7-dri">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 5 - Scatter Line Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sdR-3F-RSg">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Exponential Line Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P8D-nf-t6l">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -215,17 +183,17 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="qCj-Nc-dnZ" kind="show" id="WaP-BP-zBu"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="UBf-NJ-45q"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="OKd-7a-5G3" style="IBUITableViewCellStyleDefault" id="Ig6-8q-iSF">
-                                        <rect key="frame" x="0.0" y="284" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8E3-kW-poV" style="IBUITableViewCellStyleDefault" id="8FA-lC-yW9">
+                                        <rect key="frame" x="0.0" y="280" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ig6-8q-iSF" id="qaq-sK-7ML">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8FA-lC-yW9" id="YHJ-kR-UZK">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 6 - Scatter Heart Rate  Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OKd-7a-5G3">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Trigonometric Functions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8E3-kW-poV">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -235,17 +203,17 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="iSR-XV-q98" kind="show" id="mNK-OA-HlM"/>
+                                            <segue destination="4if-Lc-kjV" kind="show" id="OmM-he-PYl"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8G2-xO-6KB" style="IBUITableViewCellStyleDefault" id="TcR-Bf-BsD">
-                                        <rect key="frame" x="0.0" y="328" width="375" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8TE-nT-xyq" style="IBUITableViewCellStyleDefault" id="4HZ-pk-s5w">
+                                        <rect key="frame" x="0.0" y="324" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TcR-Bf-BsD" id="n90-Y4-sBf">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4HZ-pk-s5w" id="RdE-dY-PDt">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 7 - Multi Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8G2-xO-6KB">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Line Facing up Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8TE-nT-xyq">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -255,17 +223,21 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="qQr-RO-lKm" kind="show" id="Tap-uS-Jdw"/>
+                                            <segue destination="xfa-Db-RFr" kind="show" id="2zu-wv-Erj"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="opz-rL-Fya" style="IBUITableViewCellStyleDefault" id="c6t-wq-x4B">
-                                        <rect key="frame" x="0.0" y="372" width="375" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Scatter Series" id="r3l-w4-7uR">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="pTJ-XC-NBD" style="IBUITableViewCellStyleDefault" id="uOf-vR-PFR">
+                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c6t-wq-x4B" id="kL8-aS-2FQ">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uOf-vR-PFR" id="2AY-Oh-fUJ">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 8 - Scatter HR Multi Axis Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="opz-rL-Fya">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Scatter Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pTJ-XC-NBD">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -275,17 +247,21 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="lnz-Ly-SId" kind="show" id="90E-hC-fBi"/>
+                                            <segue destination="qCj-Nc-dnZ" kind="show" id="xDf-Us-odf"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="kiQ-bc-hyS" style="IBUITableViewCellStyleDefault" id="Oza-od-FrI">
-                                        <rect key="frame" x="0.0" y="416" width="375" height="44"/>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Multi Series" id="sL2-Q7-ByF">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0ko-JD-H9X" style="IBUITableViewCellStyleDefault" id="oNK-m7-bxp">
+                                        <rect key="frame" x="0.0" y="468" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Oza-od-FrI" id="vXw-yd-U0d">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oNK-m7-bxp" id="pEE-Ou-l2U">
                                             <frame key="frameInset" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Chart # 9 -Line Graph Mod Graph" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kiQ-bc-hyS">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Multi Graph (Bar &amp; Column series)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0ko-JD-H9X">
                                                     <frame key="frameInset" minX="15" width="345" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -295,7 +271,47 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="xfa-Db-RFr" kind="show" id="yW8-iI-azm"/>
+                                            <segue destination="qQr-RO-lKm" kind="show" id="m1J-u3-E5y"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="9ZZ-XF-1dx" style="IBUITableViewCellStyleDefault" id="PQ6-YO-J41">
+                                        <rect key="frame" x="0.0" y="512" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PQ6-YO-J41" id="xcc-ku-jb5">
+                                            <frame key="frameInset" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Heart Rate Graph (Scatter &amp; Band series)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9ZZ-XF-1dx">
+                                                    <frame key="frameInset" minX="15" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="iSR-XV-q98" kind="show" id="UM8-MC-TOa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="WFw-QF-Bpg" style="IBUITableViewCellStyleDefault" id="YPC-5F-ILE">
+                                        <rect key="frame" x="0.0" y="556" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YPC-5F-ILE" id="ep8-0U-FNC">
+                                            <frame key="frameInset" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Heartrate Mod Graph (Scatter &amp; Line series)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WFw-QF-Bpg">
+                                                    <frame key="frameInset" minX="15" width="345" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="lnz-Ly-SId" kind="show" id="ahr-Gc-flW"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -310,7 +326,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dtK-Wu-qhC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1247" y="1050"/>
+            <point key="canvasLocation" x="1087" y="142"/>
         </scene>
         <!--Scatter Line View Controller-->
         <scene sceneID="upn-cW-AQk">
@@ -349,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2UX-wa-oC9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4671" y="-264"/>
+            <point key="canvasLocation" x="2249" y="1782"/>
         </scene>
         <!--Multi Graph View Controller-->
         <scene sceneID="NUs-RR-xK3">
@@ -381,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IV9-lZ-Ue2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2628" y="519"/>
+            <point key="canvasLocation" x="2249" y="2622"/>
         </scene>
         <!--ScatterHR Line View Controller-->
         <scene sceneID="qsJ-3E-51L">
@@ -413,7 +429,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HMN-wM-UbR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1929" y="519"/>
+            <point key="canvasLocation" x="2886" y="2628"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yR3-tQ-uYz">
@@ -431,7 +447,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCn-Tb-kbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="435" y="1050"/>
+            <point key="canvasLocation" x="-143" y="142"/>
         </scene>
         <!--ScatterHR Modified Line View Controller-->
         <scene sceneID="aWr-d6-6ca">
@@ -463,7 +479,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kch-pZ-Md3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2846" y="1168"/>
+            <point key="canvasLocation" x="3550" y="2628"/>
         </scene>
         <!--Line Graph Mod View Controller-->
         <scene sceneID="79S-vh-ezy">
@@ -495,7 +511,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySp-bt-jBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2020" y="1627"/>
+            <point key="canvasLocation" x="3638" y="1021"/>
         </scene>
     </scenes>
 </document>

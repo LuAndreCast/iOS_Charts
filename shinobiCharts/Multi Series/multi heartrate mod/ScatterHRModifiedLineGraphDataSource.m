@@ -30,8 +30,6 @@
                 self.dataCollection = tempData;
                 self.beforeData = [self.dataCollection objectAtIndex:0];
                 self.afterData = [self.dataCollection objectAtIndex:1];
-                
-                NSLog(@"Data: %@", self.dataCollection);
             }
         }
         
@@ -88,52 +86,6 @@
     return range;
 }//eom
 
-//-(SChartAxis *)sChart:(ShinobiChart *)chart yAxisForSeriesAtIndex:(NSInteger)index
-//{
-//     //secondary axis
-//    if (index == 0)
-//    {
-//        SChartAxis * secondAxis = chart.allYAxes[1];
-//        
-//        //hiding axis in chart
-//        secondAxis.style.minorTickStyle.showLabels = YES;
-//        secondAxis.style.minorTickStyle.showTicks = YES;
-//        secondAxis.style.majorTickStyle.showLabels = YES;
-//        secondAxis.style.majorTickStyle.showTicks = YES;
-//       
-//        return secondAxis;
-//    }
-//    //primary axis
-//    else
-//    {
-//        return chart.yAxis;
-//    }
-//}//eom
-//
-//-(SChartAxis *)sChart:(ShinobiChart *)chart xAxisForSeriesAtIndex:(NSInteger)index
-//{
-//    //second axis
-//    if (index == 0)
-//    {
-//        SChartAxis * sceondAxis = chart.allXAxes[1];
-//        
-//        //hiding axis in chart
-//        sceondAxis.style.minorTickStyle.showLabels = YES;
-//        sceondAxis.style.minorTickStyle.showTicks = YES;
-//        sceondAxis.style.majorTickStyle.showLabels = YES;
-//        sceondAxis.style.majorTickStyle.showTicks = YES;
-//        
-//        return sceondAxis;
-//    }
-//    //primary axis
-//    else
-//    {
-//        return chart.xAxis;
-//    }
-//}//eom
-
-
-
 #pragma mark - Datasource methods
 -(NSInteger)numberOfSeriesInSChart:(ShinobiChart *)chart
 {
@@ -151,7 +103,6 @@
 {
     UIColor * shinobiBlueColor = [UIColor colorWithRed:1/255.f *.8 green:122/255.f *.8 blue:255/255.f *.8 alpha:1.f];
     UIColor * shinobiGreenColor = [UIColor colorWithRed:76/255.f *.8 green:217/255.f *.8 blue:100/255.f *.8 alpha:1.f];
-    UIColor * lightGrayColor = [UIColor colorWithRed:238/255.f  green:238/255.f blue:238/255.f alpha:1.0f];
     
     SChartSeries * series = nil;
     
@@ -223,9 +174,6 @@
     NSDate * date = [self getDateFromIndex:dataIndex];
     
     //heart rate values
-    
-    id beforeHeartRateValue = 0;
-    id afterHeartRateValue = 0;
     id heartRateValue = 0;
     
     //scatter points

@@ -35,7 +35,6 @@
 -(SChartSeries *)sChart:(ShinobiChart *)chart seriesAtIndex:(NSInteger)index
 {
     SChartColumnSeries *series = [SChartColumnSeries new];
-//    SChartLineSeries *series = [SChartLineSeries new];
     
     //Display labels
     series.style.dataPointLabelStyle.showLabels = YES;

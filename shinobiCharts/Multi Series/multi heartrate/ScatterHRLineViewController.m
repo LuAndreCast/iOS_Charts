@@ -6,12 +6,12 @@
 //  Copyright © 2016 LC. All rights reserved.
 //
 
-#import "ScatterHRModifiedLineViewController.h"
-#import "ScatterHRModifiedLineGraphDataSource.h"
+#import "ScatterHRLineViewController.h"
+#import "ScatterHRLineGraphDataSource.h"
 
-@interface ScatterHRModifiedLineViewController ()
+@interface ScatterHRLineViewController ()
 
-@property (strong, nonatomic) ScatterHRModifiedLineGraphDataSource *datasource;
+@property (strong, nonatomic) ScatterHRLineGraphDataSource *datasource;
 @property (strong, nonatomic) ShinobiChart *chart;
 
 
@@ -28,7 +28,7 @@
 @end
 
 
-@implementation ScatterHRModifiedLineViewController
+@implementation ScatterHRLineViewController
 
 @synthesize chartView;
 
@@ -47,7 +47,7 @@
 //    self.chart.autoresizingMask = ~UIViewAutoresizingNone;
     
     //data source setup
-    self.datasource = [[ScatterHRModifiedLineGraphDataSource alloc]init];
+    self.datasource = [[ScatterHRLineGraphDataSource alloc]init];
     self.chart .datasource = self.datasource;
     
     [self setupChart];
@@ -85,7 +85,7 @@
 #pragma mark - Setup
 -(void)setupChart
 {
-    self.chart.title = @"Heart Rates chart";
+    self.chart.title = @"Heartrates chart";
     
     self.chart.delegate = self;
     
@@ -98,15 +98,17 @@
     self.chart.licenseKey = [[Constants shared] getLicenseKey];
     
     /* X Axis */
-    self.chart.xAxis = [SChartDateTimeAxis new];
+    SChartDateRange * startingDateRange = [self.datasource getInitialDateRange];
+    self.chart.xAxis = [[SChartDateTimeAxis alloc] initWithRange:startingDateRange];
+    //[SChartDateTimeAxis new];
+    
     self.chart.xAxis.title = @"Date";
     self.chart.xAxis.labelFormatString = @"MM dd yy";
-    self.chart.xAxis.defaultRange = [self.datasource getInitialDateRange];
     self.chart.xAxis.style.majorGridLineStyle.showMajorGridLines = YES;
     self.chart.xAxis.style.majorTickStyle.showLabels = NO;
     self.chart.xAxis.style.majorTickStyle.showTicks = YES;
     self.chart.xAxis.style.minorTickStyle.showTicks = YES;
-    self.chart.xAxis.majorTickFrequency = [[SChartDateFrequency alloc]initWithDay:2];
+    
     
     //axis movement
     self.chart.xAxis.enableGesturePanning = YES;
@@ -114,10 +116,9 @@
     self.chart.xAxis.enableMomentumPanning = YES;
     self.chart.xAxis.enableMomentumZooming = YES;
     
-    
     /* Y Axis */
     self.chart.yAxis = [SChartNumberAxis new];
-    self.chart.yAxis.defaultRange = [[SChartRange alloc]initWithMinimum:@60 andMaximum:@120];;
+    self.chart.yAxis.defaultRange = [[SChartRange alloc] initWithMinimum:@70 andMaximum:@120];
     self.chart.yAxis.title = @"Heart Rates";
     self.chart.yAxis.majorTickFrequency = @1;
     self.chart.yAxis.style.majorGridLineStyle.showMajorGridLines = YES;
@@ -130,6 +131,15 @@
     self.chart.yAxis.enableGestureZooming = NO;
     self.chart.yAxis.enableMomentumPanning = NO;
     self.chart.yAxis.enableMomentumZooming = NO;
+    
+    // Add second y-axis: rainfall, in reverse position (i.e. on right hand side)
+    SChartNumberAxis *secondAxis = [SChartNumberAxis new];
+    secondAxis.defaultRange = [[SChartRange alloc] initWithMinimum:@70 andMaximum:@120];
+    secondAxis.axisPosition = SChartAxisPositionReverse;
+    secondAxis.majorTickFrequency = @1;
+    
+    
+    [self.chart addYAxis:secondAxis];
   
     
 }//eom

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController , SChartDelegate
+class TornadoBarViewController: UIViewController , SChartDelegate
 {
     var chart:ShinobiChart = ShinobiChart(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
     let dataSource:TornadoDataSource = TornadoDataSource()
@@ -40,7 +40,7 @@ class ThirdViewController: UIViewController , SChartDelegate
         chart.licenseKey = Constants.shared.getLicenseKey()
         
         chart.autoresizingMask = [ .flexibleHeight , .flexibleWidth ]
-        
+        chart.title = "Tornado Style"
         chart.datasource = dataSource
         
         self.view.addSubview(chart)

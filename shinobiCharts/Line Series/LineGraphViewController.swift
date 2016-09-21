@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, SChartDatasource
+class LineGraphViewController: UIViewController, SChartDatasource
 {
     @IBOutlet weak var chartView: UIView!
     
@@ -20,7 +20,7 @@ class FirstViewController: UIViewController, SChartDatasource
         let chart = ShinobiChart(frame: chartView.bounds)
         chart?.licenseKey =  Constants.shared.getLicenseKey()
         
-        chart?.title             = "Simple Chart #1"
+        chart?.title             = "Line Graph"
         chart?.datasource        = self
         chart?.autoresizingMask  = [.flexibleHeight , .flexibleWidth]
         
