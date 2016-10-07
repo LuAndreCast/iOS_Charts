@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7458D791DA8290D0035EB0D /* stackedColumn-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7458D741DA8290D0035EB0D /* stackedColumn-data.plist */; };
+		F7458D7A1DA8290D0035EB0D /* StackedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7458D761DA8290D0035EB0D /* StackedDataSource.m */; };
+		F7458D7B1DA8290D0035EB0D /* StackedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7458D781DA8290D0035EB0D /* StackedViewController.m */; };
+		F7458D7D1DA829660035EB0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7458D7C1DA829660035EB0D /* Main.storyboard */; };
+		F7458D841DA82ABE0035EB0D /* CandlestickDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7458D801DA82ABE0035EB0D /* CandlestickDatasource.m */; };
+		F7458D851DA82ABE0035EB0D /* CandlestickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7458D821DA82ABE0035EB0D /* CandlestickViewController.m */; };
+		F7458D861DA82ABE0035EB0D /* ChartsGallery-candlestick-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7458D831DA82ABE0035EB0D /* ChartsGallery-candlestick-data.plist */; };
 		F7A4D1E41D92D291003BBDD9 /* TornadoBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1DF1D92D291003BBDD9 /* TornadoBarViewController.swift */; };
 		F7A4D1E51D92D291003BBDD9 /* TornadoDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E11D92D291003BBDD9 /* TornadoDataPoint.m */; };
 		F7A4D1E61D92D291003BBDD9 /* TornadoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D1E31D92D291003BBDD9 /* TornadoDataSource.m */; };
@@ -27,11 +34,9 @@
 		F7A4D20B1D92D2DA003BBDD9 /* scatter-HeartRate-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2071D92D2DA003BBDD9 /* scatter-HeartRate-data.plist */; };
 		F7A4D2121D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */; };
 		F7A4D2131D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */; };
-		F7A4D2141D92D2E4003BBDD9 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */; };
 		F7A4D2151D92D2E4003BBDD9 /* scatter-HRModified-data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */; };
 		F7DAA8C81D772FF300D23A23 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DAA8C71D772FF300D23A23 /* ShinobiCharts.framework */; };
 		F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */; };
-		F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */; };
 		F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */; };
 		F7F9F7061CB2BEE4003EE8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */; };
 		F7F9F7151CB2C175003EE8E4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F7141CB2C175003EE8E4 /* OpenGLES.framework */; };
@@ -44,6 +49,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7458D741DA8290D0035EB0D /* stackedColumn-data.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = "stackedColumn-data.plist"; path = "Stacked Column Series/stackedColumn-data.plist"; sourceTree = "<group>"; };
+		F7458D751DA8290D0035EB0D /* StackedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackedDataSource.h; path = "Stacked Column Series/StackedDataSource.h"; sourceTree = "<group>"; };
+		F7458D761DA8290D0035EB0D /* StackedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackedDataSource.m; path = "Stacked Column Series/StackedDataSource.m"; sourceTree = "<group>"; };
+		F7458D771DA8290D0035EB0D /* StackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackedViewController.h; path = "Stacked Column Series/StackedViewController.h"; sourceTree = "<group>"; };
+		F7458D781DA8290D0035EB0D /* StackedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackedViewController.m; path = "Stacked Column Series/StackedViewController.m"; sourceTree = "<group>"; };
+		F7458D7C1DA829660035EB0D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F7458D7F1DA82ABE0035EB0D /* CandlestickDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandlestickDatasource.h; path = "Candlestick Series/CandlestickDatasource.h"; sourceTree = "<group>"; };
+		F7458D801DA82ABE0035EB0D /* CandlestickDatasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CandlestickDatasource.m; path = "Candlestick Series/CandlestickDatasource.m"; sourceTree = "<group>"; };
+		F7458D811DA82ABE0035EB0D /* CandlestickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CandlestickViewController.h; path = "Candlestick Series/CandlestickViewController.h"; sourceTree = "<group>"; };
+		F7458D821DA82ABE0035EB0D /* CandlestickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CandlestickViewController.m; path = "Candlestick Series/CandlestickViewController.m"; sourceTree = "<group>"; };
+		F7458D831DA82ABE0035EB0D /* ChartsGallery-candlestick-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ChartsGallery-candlestick-data.plist"; path = "Candlestick Series/ChartsGallery-candlestick-data.plist"; sourceTree = "<group>"; };
 		F7A4D1DF1D92D291003BBDD9 /* TornadoBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TornadoBarViewController.swift; path = "Bar Series/TornadoBarViewController.swift"; sourceTree = "<group>"; };
 		F7A4D1E01D92D291003BBDD9 /* TornadoDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TornadoDataPoint.h; path = "Bar Series/TornadoDataPoint.h"; sourceTree = "<group>"; };
 		F7A4D1E11D92D291003BBDD9 /* TornadoDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TornadoDataPoint.m; path = "Bar Series/TornadoDataPoint.m"; sourceTree = "<group>"; };
@@ -73,14 +89,12 @@
 		F7A4D2081D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRLineGraphDataSource.h; path = "Multi Series/multi heartrate/ScatterHRLineGraphDataSource.h"; sourceTree = "<group>"; };
 		F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineGraphDataSource.m; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineGraphDataSource.m"; sourceTree = "<group>"; };
 		F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScatterHRModifiedLineViewController.m; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineViewController.m"; sourceTree = "<group>"; };
-		F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; name = .DS_Store; path = "Multi Series/multi heartrate mod/.DS_Store"; sourceTree = "<group>"; };
 		F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "scatter-HRModified-data.plist"; path = "Multi Series/multi heartrate mod/scatter-HRModified-data.plist"; sourceTree = "<group>"; };
 		F7A4D2101D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineGraphDataSource.h; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineGraphDataSource.h"; sourceTree = "<group>"; };
 		F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScatterHRModifiedLineViewController.h; path = "Multi Series/multi heartrate mod/ScatterHRModifiedLineViewController.h"; sourceTree = "<group>"; };
 		F7DAA8C71D772FF300D23A23 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = SOURCE_ROOT; };
 		F7F9F6F81CB2BEE3003EE8E4 /* shinobiCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shinobiCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F9F6FB1CB2BEE4003EE8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7F9F7001CB2BEE4003EE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F9F7021CB2BEE4003EE8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F9F7051CB2BEE4003EE8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7F9F7071CB2BEE4003EE8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +147,30 @@
 				F7A4D1E31D92D291003BBDD9 /* TornadoDataSource.m */,
 			);
 			name = "Tornado style";
+			sourceTree = "<group>";
+		};
+		F7458D731DA828FC0035EB0D /* Stacked Column Series */ = {
+			isa = PBXGroup;
+			children = (
+				F7458D771DA8290D0035EB0D /* StackedViewController.h */,
+				F7458D781DA8290D0035EB0D /* StackedViewController.m */,
+				F7458D741DA8290D0035EB0D /* stackedColumn-data.plist */,
+				F7458D751DA8290D0035EB0D /* StackedDataSource.h */,
+				F7458D761DA8290D0035EB0D /* StackedDataSource.m */,
+			);
+			name = "Stacked Column Series";
+			sourceTree = "<group>";
+		};
+		F7458D7E1DA82AAE0035EB0D /* Candlestick Series */ = {
+			isa = PBXGroup;
+			children = (
+				F7458D811DA82ABE0035EB0D /* CandlestickViewController.h */,
+				F7458D821DA82ABE0035EB0D /* CandlestickViewController.m */,
+				F7458D831DA82ABE0035EB0D /* ChartsGallery-candlestick-data.plist */,
+				F7458D7F1DA82ABE0035EB0D /* CandlestickDatasource.h */,
+				F7458D801DA82ABE0035EB0D /* CandlestickDatasource.m */,
+			);
+			name = "Candlestick Series";
 			sourceTree = "<group>";
 		};
 		F75A5C8B1D918DAD002A06A6 /* Line Graph - Facing up */ = {
@@ -189,7 +227,6 @@
 			children = (
 				F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */,
 				F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */,
-				F7A4D20E1D92D2E4003BBDD9 /* .DS_Store */,
 				F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */,
 				F7A4D2101D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.h */,
 				F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */,
@@ -200,8 +237,8 @@
 		F7DAA81D1D771C5A00D23A23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7458D7C1DA829660035EB0D /* Main.storyboard */,
 				F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */,
-				F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -209,11 +246,11 @@
 		F7DAA8F31D77483D00D23A23 /* Heart Rate - Scatter & Band Series */ = {
 			isa = PBXGroup;
 			children = (
-				F7A4D2041D92D2DA003BBDD9 /* ScatterHRLineViewController.m */,
-				F7A4D2051D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m */,
 				F7A4D2061D92D2DA003BBDD9 /* ScatterHRLineViewController.h */,
+				F7A4D2041D92D2DA003BBDD9 /* ScatterHRLineViewController.m */,
 				F7A4D2071D92D2DA003BBDD9 /* scatter-HeartRate-data.plist */,
 				F7A4D2081D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.h */,
+				F7A4D2051D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m */,
 			);
 			name = "Heart Rate - Scatter & Band Series";
 			sourceTree = "<group>";
@@ -281,9 +318,11 @@
 			isa = PBXGroup;
 			children = (
 				F7A4D1DD1D92C958003BBDD9 /* Bar Series */,
+				F7458D7E1DA82AAE0035EB0D /* Candlestick Series */,
 				F73AF44F1D7621760015F5B1 /* Column Series */,
 				F7A4D1DC1D92C950003BBDD9 /* Line Series */,
 				F7A4D1DE1D92C965003BBDD9 /* Scatter Series */,
+				F7458D731DA828FC0035EB0D /* Stacked Column Series */,
 				F7A4D1DB1D92C949003BBDD9 /* Multi Series */,
 			);
 			name = Controllers;
@@ -352,11 +391,12 @@
 			files = (
 				F7F9F7061CB2BEE4003EE8E4 /* LaunchScreen.storyboard in Resources */,
 				F7F9F7031CB2BEE4003EE8E4 /* Assets.xcassets in Resources */,
+				F7458D861DA82ABE0035EB0D /* ChartsGallery-candlestick-data.plist in Resources */,
 				F7A4D20B1D92D2DA003BBDD9 /* scatter-HeartRate-data.plist in Resources */,
-				F7F9F7011CB2BEE4003EE8E4 /* Main.storyboard in Resources */,
+				F7458D7D1DA829660035EB0D /* Main.storyboard in Resources */,
+				F7458D791DA8290D0035EB0D /* stackedColumn-data.plist in Resources */,
 				F7A4D2151D92D2E4003BBDD9 /* scatter-HRModified-data.plist in Resources */,
 				F7A4D2031D92D2CE003BBDD9 /* multitype-data.plist in Resources */,
-				F7A4D2141D92D2E4003BBDD9 /* .DS_Store in Resources */,
 				F7A4D1F91D92D2C1003BBDD9 /* scatter-data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,10 +408,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7458D851DA82ABE0035EB0D /* CandlestickViewController.m in Sources */,
 				F7A4D1E41D92D291003BBDD9 /* TornadoBarViewController.swift in Sources */,
 				F7A4D1F31D92D2B2003BBDD9 /* LineGraphModDataSource.swift in Sources */,
 				F7A4D1EA1D92D29C003BBDD9 /* ColHighLowGraphViewController.swift in Sources */,
 				F7A4D20A1D92D2DA003BBDD9 /* ScatterHRLineGraphDataSource.m in Sources */,
+				F7458D7A1DA8290D0035EB0D /* StackedDataSource.m in Sources */,
 				F7A4D2021D92D2CE003BBDD9 /* MultiGraphDataSource.m in Sources */,
 				F7A4D2091D92D2DA003BBDD9 /* ScatterHRLineViewController.m in Sources */,
 				F7F9F6FC1CB2BEE4003EE8E4 /* AppDelegate.swift in Sources */,
@@ -381,7 +423,9 @@
 				F7A4D1E61D92D291003BBDD9 /* TornadoDataSource.m in Sources */,
 				F7A4D2121D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m in Sources */,
 				F7F9F7251CB2CE23003EE8E4 /* Constants.swift in Sources */,
+				F7458D7B1DA8290D0035EB0D /* StackedViewController.m in Sources */,
 				F7A4D1E51D92D291003BBDD9 /* TornadoDataPoint.m in Sources */,
+				F7458D841DA82ABE0035EB0D /* CandlestickDatasource.m in Sources */,
 				F7A4D2131D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m in Sources */,
 				F7A4D1FB1D92D2C1003BBDD9 /* ScatterLineViewController.m in Sources */,
 				F7A4D1EF1D92D2A7003BBDD9 /* LineTrigGraphViewController.swift in Sources */,
@@ -393,14 +437,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7F9F6FF1CB2BEE4003EE8E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7F9F7001CB2BEE4003EE8E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7F9F7041CB2BEE4003EE8E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

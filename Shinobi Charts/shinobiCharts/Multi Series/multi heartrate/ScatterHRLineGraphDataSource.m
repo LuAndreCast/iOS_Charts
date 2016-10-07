@@ -80,6 +80,12 @@
     
     NSDate * minDate = [self getDateFromIndex:0];
     NSDate * maxDate = [self getDateFromIndex:lastIndex];
+    
+    //expanding range by 1 day so its more visible on map
+    NSInteger secondInDay = 86164;
+    minDate = [minDate dateByAddingTimeInterval:-secondInDay];
+    maxDate = [maxDate dateByAddingTimeInterval:secondInDay];
+    
     SChartDateRange * range = [[SChartDateRange alloc]initWithDateMinimum:minDate andDateMaximum:maxDate];
     
     return range;
