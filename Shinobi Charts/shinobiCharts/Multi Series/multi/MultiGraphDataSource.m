@@ -65,7 +65,17 @@
     if (index == 0)
     {
         // Rainfall series, so we need the secondary axis
-        return chart.allYAxes[1];
+        SChartAxis * secondAxis = chart.allYAxes[1];
+   
+    /* //use the below to show second axis on the same side of first axis
+         secondAxis.axisPosition = SChartAxisPositionNormal;
+        secondAxis.style.majorTickStyle.showLabels = NO;
+        secondAxis.style.majorTickStyle.showTicks = NO;
+        secondAxis.style.lineColor = [UIColor clearColor];
+        secondAxis.titleLabel.text = @"Rainfall (mm)";
+        */
+        
+        return secondAxis;
     } else {
         // Temperature series, so we use the primary axis
         return chart.yAxis;

@@ -225,11 +225,11 @@
 		F7AFBB4B1D89C24F001EEBC3 /* Heart rate modified - Line & Scatter series */ = {
 			isa = PBXGroup;
 			children = (
-				F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */,
+				F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */,
 				F7A4D20D1D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.m */,
 				F7A4D20F1D92D2E4003BBDD9 /* scatter-HRModified-data.plist */,
 				F7A4D2101D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.h */,
-				F7A4D2111D92D2E4003BBDD9 /* ScatterHRModifiedLineViewController.h */,
+				F7A4D20C1D92D2E4003BBDD9 /* ScatterHRModifiedLineGraphDataSource.m */,
 			);
 			name = "Heart rate modified - Line & Scatter series";
 			sourceTree = "<group>";

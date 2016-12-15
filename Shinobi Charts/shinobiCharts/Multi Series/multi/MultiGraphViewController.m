@@ -61,7 +61,8 @@
     self.chart.legend.hidden = YES;
     
     //License Key
-    self.chart.licenseKey = [[Constants shared] getLicenseKey];
+    NSString * license = [[Constants shared] getLicenseKey];
+    self.chart.licenseKey = license;
     
     
     /* X Axis */
@@ -82,7 +83,7 @@
     secondAxis.defaultRange = [[SChartRange alloc] initWithMinimum:0 andMaximum:@160];
     secondAxis.title = @"Rainfall (mm)";
    [self.chart addYAxis:secondAxis];
-    
+
     
     for (SChartAxis *axis in self.chart.allAxes) {
         axis.enableGesturePanning = YES;

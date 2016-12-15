@@ -85,8 +85,9 @@
     
     
     /* Y Axis */
+    SChartNumberRange * yRange =  [[SChartNumberRange alloc]initWithMinimum:@60 andMaximum:@120];
     self.chart.yAxis = [SChartNumberAxis new];
-    self.chart.yAxis.defaultRange = [[SChartRange alloc]initWithMinimum:@60 andMaximum:@120];;
+    self.chart.yAxis.defaultRange = yRange;
     self.chart.yAxis.title = @"Heart Rates";
     self.chart.yAxis.majorTickFrequency = @1;
     self.chart.yAxis.style.majorGridLineStyle.showMajorGridLines = YES;
@@ -99,7 +100,18 @@
     self.chart.yAxis.enableGestureZooming = NO;
     self.chart.yAxis.enableMomentumPanning = NO;
     self.chart.yAxis.enableMomentumZooming = NO;
-  
+    
+/*
+    //Use this second Axis, when you want more text  (by using another label)  on the y Axis
+    SChartNumberAxis * secondAxis = [[SChartNumberAxis alloc]initWithRange:yRange];
+    secondAxis.axisPosition = SChartAxisPositionNormal;
+    secondAxis.titleLabel.text =  @"Testing this";
+    secondAxis.style.majorTickStyle.showTicks = NO;
+    secondAxis.style.majorTickStyle.showLabels = NO;
+    secondAxis.style.minorTickStyle.showTicks = NO;
+    secondAxis.style.minorTickStyle.showLabels = NO;
+    [self.chart addYAxis:secondAxis];
+ */
     
 }//eom
 

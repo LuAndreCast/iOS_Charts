@@ -38,6 +38,27 @@
 }
 
 #pragma mark - Graph Helpers
+- (SChartAxis *)sChart:(ShinobiChart *)chart yAxisForSeriesAtIndex:(NSInteger)index
+{
+    if (index == 0)
+    {
+        //the secondary axis
+        SChartAxis * secondAxis = chart.allYAxes[1];
+      
+        /*
+        //use the below to show second axis on the same side of first axis
+        secondAxis.axisPosition = SChartAxisPositionNormal;
+        secondAxis.style.majorTickStyle.showLabels = NO;
+        secondAxis.style.majorTickStyle.showTicks = NO;
+        secondAxis.style.lineColor = [UIColor clearColor];
+        */
+        
+        return secondAxis;
+    } else {
+        //primary axis
+        return chart.yAxis;
+    }
+}//eom
 
 //assuming all data points have the same dates
 -(NSDate *)getDateFromIndex:(NSInteger)index
