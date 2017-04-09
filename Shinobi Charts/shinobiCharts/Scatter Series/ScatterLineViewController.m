@@ -178,7 +178,9 @@
         for (int i=0; i<self.chart.allAxes.count && i<self.ranges.count; i++) {
             if (self.ranges[i]) {
                 SChartRange *range = (SChartRange *)self.ranges[i];
-                [self.chart.allAxes[i] setRangeWithMinimum:range.minimum andMaximum:range.maximum];
+//                [self.chart.allAxes[i] setRangeWithMinimum:range.minimum andMaximum:range.maximum];
+                
+                [self.chart.allAxes[i] setRange:range];
             }
         }
     }
